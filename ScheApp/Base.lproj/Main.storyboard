@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="Oyu-Xg-kVW" id="Yk2-Ra-CkA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ScheApp" id="QNT-FJ-Jq0"/>
+                    <navigationItem key="navigationItem" title="ScheApp" id="QNT-FJ-Jq0">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="zhZ-UT-QaU">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="addPressButton:" destination="Oyu-Xg-kVW" id="mRN-Di-5Gk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OJW-FU-YtU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,7 +65,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wsq-lO-HSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="254" y="-278"/>
+            <point key="canvasLocation" x="454" y="-279"/>
         </scene>
     </scenes>
 </document>
